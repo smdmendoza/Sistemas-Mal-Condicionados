@@ -1,0 +1,13 @@
+﻿Ejercicio:
+
+5x_1 + 3x_2 - 2x_3 = 12
+-4x_1 - 7x_2 + x_3 = -18
+x_1 + 2x_2 + 4x_3 = 8
+
+
+det ( A )=5( ( − 7 ) ( 4 )−( 1 ) ( 2 ) )−3( ( − 4 ) ( 4 )−( 1 ) ( 1 ) )+( − 2 )( ( − 4 ) ( 2 )−( − 7 ) ( 1 ) )
+det ( A )=5 ( − 28−2 )−3 ( − 16−1 )+( − 2 ) ( − 8+7 )
+det ( A )=5 ( − 30 )−3 ( − 17 )+( − 2 ) ( − 1 )
+det ( A )=− 150+51+2=− 97
+Condicionalidad
+Pequeños cambios en los coeficientes de la matriz.AAApueden cambiar la solución de forma significativa, especialmente si el determinante es cercano a 0. Esto ocurre debido a la condicionalidad numérica : cuando los valores de los elementos de la matriz son muy sensibles a cambios, cualquier error en los cálculos (debido a redondeo, etc.) puede causar que la solución se desvíe.
